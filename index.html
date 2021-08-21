@@ -7,6 +7,7 @@
     <meta name = "robots">
     <link rel="icon" href="./images/logo.png">
     <link rel="stylesheet" href="./styles.css">
+    <link rel="stylesheet" href="./tablet.css" media = "(min-width:700px)">
     
     <title>Google</title>
 </head>
@@ -33,16 +34,31 @@
              <source srcset="./images/google.gif" media = "(min-width:600px)">
              <img class = "principal_google" src  = "./images/google_medium.gif" alt="Logo de google" title = "Welcome to google"> 
         </picture>
-        
-        <form action="">
-            <label for="texto_google">
-             <span ><img src = "./images/lupa.png" ><input type="text" name="" id="texto_google">  </span> 
-             
-               <input class = "lupa" type="image" src = "./images/lupa.pn">
-               <input  class = "voz" type="image" src = "./images/micrfono.pn" title = "Búsqueda por voz">
-            </label>
-        </form>
-   
     </main>
+    <section class = "container_escritor">
+        <button class = "button_search">
+            <img class ="lupa" src="./images/lupa.png" alt="lupa" >
+        </button>
+        <input type="text" id="caja_texto">
+        <button class = "button_search">
+            <img class ="microfono" src="./images/micrfono.png" alt="micrófono">
+        </button>
+    </section>
+    <div class = "botones_busqueda">
+          <input class ="google_search" type="submit" value = "Buscar en google">
+          <input class ="google_search"  type="button" value = "Me siento con suerte">
+    </div>
+    
+   <footer class = "footer_container">
+       
+      <ol class = "lista_ol_footer">
+          <li class = "lista_footer">Sobre google</li>
+          <li class = "lista_footer">Publicidad </li>
+          <li class = "lista_footer"> Negocios</li>
+          <li class = "lista_footer"> Condiciones</li>
+          <li class = "lista_footer">Preferencias</li>
+      </ol>
+   </footer>
+   
 </body>
 </html>
