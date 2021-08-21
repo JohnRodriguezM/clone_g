@@ -29,7 +29,13 @@
 
 @media(min-width:1014px){
     .footer_container{
-        margin-top: 10%;
+        margin-top: 11%;
+        
+    }
+}
+@media(min-width:1200px){
+    .footer_container{
+        margin-top: 8%;
         
     }
 }
