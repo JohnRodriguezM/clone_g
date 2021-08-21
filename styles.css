@@ -167,7 +167,7 @@ flex-direction: row;}
         width:280px;
     }
     .footer_container{
-        margin-top: 35%;
+        margin-top: 15%;
     }
 
 }
@@ -179,21 +179,15 @@ flex-direction: row;}
         width:300px;
     }
     .footer_container{
-        margin-top: 28%;
+        margin-top: 10%;
     }
 }
     
 
-@media and only(width:393px){
-    .footer_container{
-        margin-top: 5%;
-        
-    } 
-}
 
 @media(min-width:600px){
     .footer_container{
-        margin-top: 15%;
+        margin-top: 7%;
         
     }
 }

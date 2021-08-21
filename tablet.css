@@ -26,24 +26,21 @@
 
 @media(min-width:800px){
     .footer_container{
-        margin-top: 1%;
+        margin-top: 15px;
         
     }
-}
-@media (min-width:851px) {
-    .footer_container{
-        margin-top: 1%;
+
         
     
 @media(min-width:1014px){
     .footer_container{
-        margin-top: 11%;
+        margin-top: 1%;
         
     }
 }
 @media(min-width:1200px){
     .footer_container{
-        margin-top: 8%;
+        margin-top: 5%;
         
     }
 }
