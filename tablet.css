@@ -20,13 +20,21 @@
     font-size: 1.8rem;
 }
 
+
+} 
+}
+
 @media(min-width:800px){
     .footer_container{
-        margin-top: 12%;
+        margin-top: 1%;
         
     }
 }
-
+@media (min-width:851px) {
+    .footer_container{
+        margin-top: 1%;
+        
+    
 @media(min-width:1014px){
     .footer_container{
         margin-top: 11%;
