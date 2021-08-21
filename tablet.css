@@ -1,3 +1,35 @@
+.principal_google{
+    width:500px ;
+}
 
+.container_escritor{
+    width: 630px;
+}
+#caja_texto{
+        width: 540px;
+}
+.botones_busqueda{
+    margin-top: auto;
+}
+.google_search{
+    padding: 11px;
+    font-size: 1.5rem;
+}
 
-    
+.lista_footer{
+    font-size: 1.8rem;
+}
+
+@media(min-width:800px){
+    .footer_container{
+        margin-top: 12%;
+        
+    }
+}
+
+@media(min-width:1014px){
+    .footer_container{
+        margin-top: 10%;
+        
+    }
+}

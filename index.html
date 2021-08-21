@@ -8,7 +8,7 @@
     <link rel="icon" href="./images/logo.png">
     <link rel="stylesheet" href="./styles.css">
     <link rel="stylesheet" href="./tablet.css" media = "(min-width:700px)">
-    
+    <link rel="stylesheet" href="./4k.css" media="(min-width:2000px)">
     <title>Google</title>
 </head>
 <body>
@@ -31,6 +31,7 @@
     </header>
     <main class = "main_flex">
          <picture>
+            <source media="(min-width:2000px)" srcset="./images/google4k.gif">
              <source srcset="./images/google.gif" media = "(min-width:600px)">
              <img class = "principal_google" src  = "./images/google_medium.gif" alt="Logo de google" title = "Welcome to google"> 
         </picture>
