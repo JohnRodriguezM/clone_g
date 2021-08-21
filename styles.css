@@ -1,24 +1,12 @@
 /*Inicio proyecto clone de google css*/
+/*Aplicacion estilos generales y html*/
+/*estilos dispositivos de 320 px 425 px */
+*{box-sizing: border-box;margin: 0;padding: 0}
+html{font-size: 62.5%;}
+/*navigation section*/
+.barra_navegacion{display: flex;justify-content: flex-end;width: 100%;flex-wrap: wrap;
+flex-direction: row;}
 
-*{
-box-sizing: border-box;
-margin: 0;
-padding: 0;
-}
-
-html{
-    font-size: 62.5%;
-}
-
-.barra_navegacion{
-    display: flex;
-    justify-content: flex-end;
-    width: 100%;
-    flex-wrap: wrap;
-    flex-direction: row;
-   
-
-}
 .lista_ol1{
      margin-right: 2.8%;
     height: 100px;
@@ -31,6 +19,7 @@ html{
    
     font-size: 1.6rem;
 }
+
 .navegado_li,.navegado_li2{margin-top: 25px;}
 .navegado_li3{margin-top: 18px;}
 .navegado_li4{margin-top: 10px;}
@@ -38,7 +27,7 @@ html{
 
 
 
-
+.navegado_li:hover,.navegado_li2:hover{text-decoration: underline;}
 .img_barra_1{
     width: 25px;
     height: 25px;
@@ -48,3 +37,48 @@ html{
 .img_barra_2{border-radius: 30px; width: 40px; height: 40px;}
 .img_barra_2:hover{box-shadow: 0px 0px 20px 0px #B3B6B7; opacity: 0.9; }
 
+/*main*/
+
+.main_flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    flex-wrap: wrap;
+}
+
+.principal_google{
+    height:185px;
+  width: 270px;
+  opacity: 0.8;
+  
+}
+
+/*section inputs*/
+
+.inputs_google{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+#texto_google{
+    width:100%;
+    height: 40px;
+    border-radius: 15px;
+    border:1px solid black;
+    margin-top:50px;
+    
+}
+.lupa{
+    width: 30px;
+    height: 30px;
+    opacity: 0.7;
+  
+}
+.voz{
+    width: 30px;
+    height: 30px;
+    opacity: 0.7;
+    
+}
