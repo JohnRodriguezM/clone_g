@@ -1,4 +1,88 @@
 .principal_google{
+    width:450px ;
+}
+
+.container_escritor{
+    width: 630px;
+}
+#caja_texto{
+        width: 540px;
+}
+.botones_busqueda{
+    margin-top: auto;
+}
+.google_search{
+    padding: 11px;
+    font-size: 1.5rem;
+}
+
+.pais{
+    font-size: 1.85rem;
+}
+
+
+
+.lista_footer{
+    font-size: 1.8rem;
+    
+}
+
+
+/*parte landscape orientation*/
+
+@media (max-width:900px) and (orientation:landscape){
+    
+.footer_container{
+  
+   
+    display: flex;
+    position: absolute; bottom:-180px;
+    border-top: 1px solid #D0D3D4;
+    width: 100%;
+    
+    
+    
+}
+
+.pais{
+    
+        position: absolute;bottom: -125px;
+       
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+
+.principal_google{
     width:500px ;
 }
 
