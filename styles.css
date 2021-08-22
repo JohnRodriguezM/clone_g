@@ -206,7 +206,7 @@ flex-direction: row;}
     
 /*parte landscape orientation*/
 
-@media (max-width:650px) and (orientation:landscape){
+@media (max-width:852px) and (orientation:landscape){
     
     .footer_container{
       
