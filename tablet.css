@@ -36,7 +36,7 @@
   
    
     display: flex;
-    position: absolute; bottom:-210px;
+    position: absolute; bottom:-225px;
     border-top: 1px solid #D0D3D4;
     width: 100%;
     
@@ -46,7 +46,7 @@
 
 .pais{
     
-        position: absolute;bottom: -145px;
+        position: absolute;bottom: -160px;
        
     }
 }
