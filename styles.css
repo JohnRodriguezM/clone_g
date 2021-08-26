@@ -131,11 +131,6 @@ outline: none;
     width: 100%;
 }
 
-@media (min-width:425px){
-    .pais{
-        bottom:60px;
-    }
-}
 
 /*footer*/
 
@@ -144,7 +139,8 @@ outline: none;
 .footer_container{
   
    
-   display: flex;
+   display: grid;
+   grid-template-columns: 1fr 1fr;
    position: absolute; bottom:10px;
    border-top: 1px solid #D0D3D4;
    width: 100%;
@@ -158,6 +154,11 @@ outline: none;
   
 }
 
+.lista_ol_footer_2{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 5px;
+}
 
 
 .lista_footer{
