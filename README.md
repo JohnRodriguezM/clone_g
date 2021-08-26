@@ -3,6 +3,7 @@
 Comenzando 🚀
 
 Se realiza un clon de la págian principal del navegador google chrome, asimilandose lo mas posible a los detalles mínimos de ese sitio web.
+El diseño se ejecuto respetando el responsive design.
 
 Ejecutando las pruebas ⚙️
 https://johnrodriguezm.github.io/clone_g/
